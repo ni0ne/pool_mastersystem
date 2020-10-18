@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastersystem</title>
+  <link rel="stylesheet" href="../vendor/css/normalize.css">
+  <link rel="stylesheet" href="../vendor/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <div class="row justify-content-between header__menu">
+          <div class="col-auto header__logo">
+            <img src="../img/logo.svg" alt="Логотип Mastersystem">
+            <span class="header__logo--name">Mastersystem</span>
+          </div>
+
+          <nav class="col-auto header__nav">
+            <ul class="header__nav__list button">
+              <li class="header__nav__item"><a href="#">Кейсы</a></li>
+              <li class="header__nav__item"><a href="#">Особенности</a></li>
+              <li class="header__nav__item"><a href="#">Контакты</a></li>
+              <li class="header__nav__item burger"><span class="header__burger"></span></li>
+              <li class="header__nav__item button"><a class="button--login" href="#">Вход</a></li>
+            </ul>
+          </nav>
+      </div>
+
+      <div class="row justify-content-between">
+        <div class="col-lg-5 col-md header__offer">
+          <h1>Mastersystem <br> создавай и управляй</h1>
+          <p>Mastersystem - это профессиональная система управления веб-проектами, универсальный программный продукт для создания, поддержки и успешного развития</p>
+          <form class="header__form" action="#">
+            <div class="header__form--wrapper">
+              <input type="email" name="email" id="email" placeholder="Введите свой E-mail">
+              <button type="submit">Попробуйте бесплатно</button>
+            </div>
+            <p class="header__offer--login">
+              Уже используете CRM? 
+              <a class="header__offer--login_link" href="#">Войти</a>
+            </p>
+          </form>
+        </div>
+
+        <div class="col-auto header__image">
+          <div class="header__image--preview">
+            <img src="../img/preview.png" alt="CMS">
+          </div>
+
+          <div class="header__image--wrapper">
+            <div class="header__image--first">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Id</th>
+                    <th class="table--sort">Дата и время</th>
+                    <th>Ссылка</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td># 10143</td>
+                    <td>20.01.2018 10:45</td>
+                    <td>https://profobr27.ru</td>
+                  </tr>
+                  <tr>
+                    <td># 29432</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td># 34312</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td># 43213</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+  
+            <div class="header__image--second">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Id</th>
+                    <th>Название</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td></td>
+                    <td># 1</td>
+                    <td>Основное меню Портала</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td># 2</td>
+                    <td>Меню образовательных организаций</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td># 3</td>
+                    <td>Меню внутренних разделов</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td># 4</td>
+                    <td>Дополнительное меню</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+  
+            <div class="header__image--third">
+              <div class="header__image--dot">
+                <span class="dot"></span>
+              </div>
+              <ul>
+                <li>Изменить</li>
+                <li>Дублировать</li>
+                <li>Удалить</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section class="arguments">
+      <div class="row">
+        <div class="col-auto arguments__annonce">
+          <h2>Идейные соображения</h2>
+          <p>Решения, которые принимала наша команда, основаны на потребностях и желаниях конечного пользователя. Благодаря им мы создали уникальную систему позволяющею эффективно управлять вашим бизнесом.</p>
+        </div>
+  
+        <div class="col arguments__wrapper">
+          <ul class="arguments__list">
+            <li class="arguments__item">
+              <img src="../img/prototyping.svg" alt="Глубокая проработка">
+              <p>Глубокая проработка</p>
+              <span>Мы тщательно продумали UX и UI</span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/new_tech.svg" alt="Новейшие технологии">
+              <p>Новейшие технологии</p>
+              <span>Только новейшие и проверенные технологии</span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/hired.svg" alt="Интуитивность">
+              <p>Интуитивность</p>
+              <span>Интуитивное управление сайтом</span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/design.svg" alt="Уникальный дизайн">
+              <p>Уникальный дизайн</p>
+              <span>Самобытный дизайн от специалистов </span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/shield.svg" alt="Современная защита">
+              <p>Современная защита</p>
+              <span>Специалисты продумали защиту ваших данных</span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/conversation.svg" alt="Быстрая поддержка">
+              <p>Быстрая поддержка</p>
+              <span>Обширный FAQ и система поддержки пользователей</span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/paint_palette.svg" alt="Иллюстрации">
+              <p>Иллюстрации</p>
+              <span>Красивые иллюстрации, приятные глазу</span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/code.svg" alt="Лучший код">
+              <p>Лучший код</p>
+              <span>Оптимизированный и качественный код</span>
+            </li>
+            <li class="arguments__item">
+              <img src="../img/training.svg" alt="Обучение">
+              <p>Обучение</p>
+              <span>Наличие обучение работы с системой</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
