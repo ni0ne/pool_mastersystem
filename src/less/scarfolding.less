@@ -1,0 +1,124 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  background-color: @light_grey;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 62.11px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 39.86px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  color: @light_grey;
+  line-height: 27.95px;
+}
+
+span {
+  font-size: 15px;
+}
+
+a {
+  color: @white;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.button {
+  font-size: 15px;
+  font-weight: normal;
+
+  &--login {
+    padding: 5px 25px;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 4px;
+    transition: all .3s;
+
+    &:hover {
+      border: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+}
+
+input::-webkit-input-placeholder,
+input:-ms-input-placeholder,
+input:-moz-placeholder,
+input::-moz-placeholder  {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  // margin-bottom: $spacer;
+  color: #333333;
+  background-color: @white;
+
+  -webkit-box-shadow: -5px -5px 25px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: -5px -5px 25px 5px rgba(0,0,0,0.2);
+  box-shadow: -5px -5px 25px 5px rgba(0,0,0,0.2);
+
+  td {
+    padding: 0;
+    vertical-align: top;
+    border-top: 1px solid #E0E0E0;
+  }
+}
+
+main {
+  p {
+    color: @heading_color;
+  }
+}
+
+@media (max-width: 1279px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 1023px) {
+  h1 {
+    font-size: 36px;
+    line-height: 46.58px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 567px) {
+  h1 {
+    font-size: 28px;
+    line-height: 36.23px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
