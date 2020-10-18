@@ -1,4 +1,4 @@
 # Тестовое задание Mastersystems
 
-Для сборки через gulp
+Для сборки через gulp:
   >gulp default
